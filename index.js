@@ -35,8 +35,11 @@ function init() {
     //shuffle deck with new array
     resetDeck()
     makeDeck();
+     $('.submit').html("New Array submitted successfully.")
+     $('.error').empty();
     } else {
       $('.error').html("Incorrect Syntax, please try again.")
+      $('.submit').empty();
     }
   });
   

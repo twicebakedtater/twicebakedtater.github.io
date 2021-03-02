@@ -5,12 +5,16 @@
 
 #cardarray {
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 
 .error {
-  margin-top: 10px;
   color:red;
+}
+
+.submit {
+  color:green;
+  margin-bottom: 50px;
 }
 
 
